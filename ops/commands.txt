@@ -1,0 +1,1 @@
+ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa a787983@tdist001s << EOF ops-cli deploy --object-code UOW --module uow-test-tomcat --perimeter DEV --server tdist001s --action APPLY --sequential-mode SOFTWARE --preview EOF 
